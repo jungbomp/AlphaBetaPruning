@@ -13,19 +13,19 @@ Input file
 **DAY**
 Contains “today” or “yesterday” indicating which day the RPL was posted
 * PLAYER - Contains either “R1” or “R2” indicating which roommate has next turn
-* REGION PROFITABILITY LIST - 
+* REGION PROFITABILITY LIST
 Ordered list of tuples (Region_Identifier, Profit_Number).
 * ADJACENCY MATRIX ROWS
 The rows of the adjacency matrix representing the map.
-<REGIONS PICKED SO FAR>
+REGIONS PICKED SO FAR
 Comma separated list of regions picked so far. Will contain “*” if no activity yet.
-<MAX DEPTH>
+MAX DEPTH
 Number that determines the maximum depth of your search tree 
   
 Output file
-<NEXT REGION TO PICK> 
+NEXT REGION TO PICK
 The next region the <PLAYER> should pick.
-<UTILITY VALUE LIST>
+UTILITY VALUE LIST
 In the case of a current RPL: A comma separated list of the utility of the <PLAYER> at the terminal nodes of the search tree (considering the maximum depth of <MAX DEPTH>) for the activity under the assumption that both players select moves maximizing their utilities.
 In the case of a stale RPL: 
 A comma separated list of the utility of the <PLAYER> at the next pick nodes under the assumption that both players select moves maximizing their utilities according to the heuristic function.
