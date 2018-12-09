@@ -11,16 +11,16 @@ This is an implementation of [alpha-beta pruning](https://en.wikipedia.org/wiki/
 ** Refer csci561_summer2018_hw1.pdf **
 Input file
 <DAY>
-Contains “today” or “yesterday” indicating which day the RPL was posted 
+Contains “today” or “yesterday” indicating which day the RPL was posted
 <PLAYER>
 Contains either “R1” or “R2” indicating which roommate has next turn
-<REGION PROFITABILITY LIST> 
-Ordered list of tuples (Region_Identifier, Profit_Number).  
-<ADJACENCY MATRIX ROWS> 
+<REGION PROFITABILITY LIST>
+Ordered list of tuples (Region_Identifier, Profit_Number).
+<ADJACENCY MATRIX ROWS>
 The rows of the adjacency matrix representing the map.
-<REGIONS PICKED SO FAR> 
+<REGIONS PICKED SO FAR>
 Comma separated list of regions picked so far. Will contain “*” if no activity yet.
-<MAX DEPTH> 
+<MAX DEPTH>
 Number that determines the maximum depth of your search tree 
   
 Output file
