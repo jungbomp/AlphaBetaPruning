@@ -10,7 +10,7 @@ This is an implementation of [alpha-beta pruning](https://en.wikipedia.org/wiki/
 ### Datasets
 ** Refer csci561_summer2018_hw1.pdf **
 Input file
-<DAY>
+*DAY>
 Contains “today” or “yesterday” indicating which day the RPL was posted
 <PLAYER>
 Contains either “R1” or “R2” indicating which roommate has next turn
