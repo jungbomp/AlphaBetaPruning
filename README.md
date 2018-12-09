@@ -8,16 +8,12 @@ This is an implementation of [alpha-beta pruning](https://en.wikipedia.org/wiki/
 * 50 big datasets
 
 ### Datasets
-**Refer csci561_summer2018_hw1.pdf**
+Refer csci561_summer2018_hw1.pdf
 
 Input file
-
 ```DAY```
-
 Contains “today” or “yesterday” indicating which day the RPL was posted
-
 ```PLAYER```
-
 Contains either “R1” or “R2” indicating which roommate has next turn
 * REGION PROFITABILITY LIST
 Ordered list of tuples (Region_Identifier, Profit_Number).
